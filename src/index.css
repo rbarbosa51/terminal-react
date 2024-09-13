@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+  }
+  body,
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .no-outline {
+    outline: none;
+  }
+  .no-border {
+    border: none;
+  }
+}
