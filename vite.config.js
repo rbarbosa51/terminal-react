@@ -8,4 +8,5 @@ export default defineConfig({
     port: 8000,
     open: true,
   },
+  base: '/terminal-react/'
 });
